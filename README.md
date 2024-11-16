@@ -1,5 +1,9 @@
 # Halu, OpenBMB 4B Tuned and Inference
 
+Developed a framework utilizing a LoRa fine-tuned small language models (openbmb/MiniCPM3-4B) to detect and correct hallucination patterns in the popular GPT-3.5. Created a mechanism in Python for assigning confidence scores to segmented LLM CoT by enabling SLM to call custom tools & Google’s web search API. Leveraged confidence to tune GPT-3.5 using HF libraries, enhancing its trustworthiness; also generated a trajectory dataset for fine-tuning HalluAgent utilizing GPT-4.
+
+
+
 The larger project where this idea originated is through our proposed paper for LLM hallucination detection and correcting. We followed three basic ideas to try and tackle this prominent issue and our proposed solutions as well as current experimentation results can be found in the "Experiment result" under my github project.
 
 
